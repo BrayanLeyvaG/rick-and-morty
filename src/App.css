@@ -3,3 +3,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+.all-body{
+    padding: 50px 100px 100px 100px;
+}
+
+.all-body h2{
+    background-color: white;
+    text-align: center;
+}

@@ -43,4 +43,5 @@
     overflow-y: hidden;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }

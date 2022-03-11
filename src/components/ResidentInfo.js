@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import './CharacterInfo.css'
+import './ResidentInfo.css'
 
-export const CharacterInfo = ({cLink}) => {
+export const ResidentInfo = ({cLink}) => {
 
     const [cInfo, setCInfo] = useState({})
     

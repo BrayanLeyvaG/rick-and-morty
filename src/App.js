@@ -2,7 +2,8 @@ import './App.css';
 import {useEffect, useState} from 'react'
 import axios from 'axios';
 import { SearchBox } from './components/SearchBox';
-import { List } from './components/List';
+import { ResidentList } from './components/ResidentList';
+import { LocationInfo } from './components/LocationInfo';
 
 function App() {
 
@@ -25,8 +26,8 @@ function App() {
     <div className="App">
       <SearchBox setDataRM={setDataRM}/>
       <div className='all-body'>
-        <h2>{dataRM.name}</h2>
-        <List characters={dataRM.residents}/>
+        <LocationInfo data={dataRM}/>
+        <ResidentList characters={dataRM.residents}/>
       </div>
     </div>
   );

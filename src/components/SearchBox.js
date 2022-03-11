@@ -19,7 +19,7 @@ export const SearchBox = ({setDataRM}) => {
     <div className='all-search'>
       <div className='search-container'>
         <img src={logo}></img>
-        <input onChange={(e) => setSearch(e.target.value)} value={search} type='text'></input>
+        <input min='1' max='126' onChange={(e) => setSearch(e.target.value)} value={search} type='number' placeholder='Type a location id (1 to 126)'></input>
         <button onClick={searchID}>Search</button>
       </div>
     </div>
