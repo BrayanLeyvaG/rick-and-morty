@@ -24,8 +24,10 @@ function App() {
   return (
     <div className="App">
       <SearchBox setDataRM={setDataRM}/>
-      <h2>{dataRM.name}</h2>
-      <List characters={dataRM.residents}/>
+      <div className='all-body'>
+        <h2>{dataRM.name}</h2>
+        <List characters={dataRM.residents}/>
+      </div>
     </div>
   );
 }

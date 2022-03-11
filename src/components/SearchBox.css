@@ -1,0 +1,46 @@
+.all-search{
+    height: 40vh;
+    width: 100vw;
+    background-image: url(../img/portal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.all-search img{
+    height: 10em;
+}
+
+.search-container{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input{
+    font-size: 1.3em;
+    width: 80%;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.search-container button{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: solid aquamarine 3px;
+    background-color: black;
+    color: azure;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+}
